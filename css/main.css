@@ -1,6 +1,13 @@
 body{
     background-size:cover;
     font-family: 'Roboto', "helvetica neue", Helvetica, Arial, sans-serif;
+    background: url(../img/1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/1.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/1.jpg', sizingMethod='scale')";
 }
 
 .black{
